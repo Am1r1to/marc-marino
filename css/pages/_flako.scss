@@ -19,7 +19,7 @@ header.flako a{
     background-color: #fff;
     position: relative;
     top: 100vh;
-    padding: 100px 0;
+    padding-top: 100px;
    
 }
 .container{
@@ -66,10 +66,6 @@ article{
     }
     h2{
         text-align: center;
-        
-        
-       
-
     }
 }
 
@@ -96,5 +92,72 @@ article{
         width: 485px;
         height: 500px;
     }
+    .img3{
+        background-image: url(../img/03.jpg);
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        background-position:center;
+        background-size: cover;
+        width: 485px;
+        height: 500px;
+    }
+    .img4{
+        background-image: url(../img/04.jpg);
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        background-position:center;
+        background-size: cover;
+        width: 485px;
+        height: 500px;
+    }
 
+}
+
+.pc{
+    padding: 50px 0;
+}
+.big-image img{
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.footer-flako{
+    position: relative;
+    background-color: #212121;
+    bottom: 0;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;
+   
+}
+
+.next-project{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    h1{
+        font-size: 60px;
+        margin: 0;
+    }
+    h3{
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+}
+.bloc2{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/arrow.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.final{
+    display: flex;
+   
 }

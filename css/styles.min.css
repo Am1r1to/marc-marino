@@ -378,8 +378,12 @@ footer small {
   color: #fff;
 }
 
-.swiper-pagination-bullet-active {
-  color: black;
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background-color: black;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 10px;
 }
 
 body {
@@ -514,7 +518,7 @@ header.flako a {
   background-color: #fff;
   position: relative;
   top: 100vh;
-  padding: 100px 0;
+  padding-top: 100px;
 }
 
 .container {
@@ -597,5 +601,90 @@ article p {
   background-size: cover;
   width: 485px;
   height: 500px;
+}
+
+.images .img3 {
+  background-image: url(../img/03.jpg);
+  background-color: black;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  width: 485px;
+  height: 500px;
+}
+
+.images .img4 {
+  background-image: url(../img/04.jpg);
+  background-color: black;
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  width: 485px;
+  height: 500px;
+}
+
+.pc {
+  padding: 50px 0;
+}
+
+.big-image img {
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.footer-flako {
+  position: relative;
+  background-color: #212121;
+  bottom: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 400px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.next-project {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.next-project h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.next-project h3 {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.bloc2 {
+  width: 50px;
+  height: 50px;
+  background-image: url(../img/arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.final {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=styles.min.css.map */

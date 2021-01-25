@@ -25,7 +25,9 @@
   .swiper-button-next, .swiper-button-prev{
       color: #fff;
   }
-  .swiper-pagination-bullet-active{
-    color: rgb(0, 0, 0);
-  }
- 
+  .swiper-pagination-clickable .swiper-pagination-bullet {
+    background-color: black;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 10px;
+}
