@@ -1,0 +1,26 @@
+header{
+    width: 100vw;
+    display: flex;
+    padding: 30px;
+    z-index: 2;
+    a{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: none;
+        
+    }
+    .links a{
+        margin-left: 20px;
+        &:hover{
+            text-decoration:line-through;
+        }
+    }
+}
+.logo{
+    margin-right: auto;
+    margin-left: 20px;
+
+    
+}

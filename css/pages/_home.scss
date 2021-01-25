@@ -1,0 +1,28 @@
+body{
+    color: #fff;
+}
+.text-principal{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 70%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a{
+        display: inline-block;
+        font-size: 14px;
+        color: #fff;
+    
+    }
+    .projects{
+        width: 20%;
+    }
+    h1{
+        width: 70%;
+        margin-top: 0px;
+    }
+}

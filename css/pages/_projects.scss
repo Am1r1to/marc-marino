@@ -1,0 +1,60 @@
+nav{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    margin-top: -80px;
+    z-index: -1;
+    
+}
+
+nav > div{
+    width: 25%;
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    a{
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+        
+        span{
+            display: block;
+            font-size: 12px;
+            text-align: center;
+            line-height: 30px;
+        }
+
+    }
+
+}
+
+
+
+.hover-image {
+   display: none;
+    
+  }
+  
+.hover-title:hover + .hover-image {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+    
+  }
+  
+  .hover-image {
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    
+  }
+.hover-image img{
+    height: 100%;
+}
+ 

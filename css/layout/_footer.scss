@@ -1,0 +1,27 @@
+footer{
+    width: 100vw;
+    display: flex;
+    padding: 30px;
+    position: absolute;
+    bottom: 25px;
+
+    a{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: none;
+        margin-left: 20px;
+    }
+    .links{
+        margin-right: auto;
+    }
+    small{
+        color: #5a5a58;
+        font-size: 12px;
+        line-height: 20px;
+        font-style: italic;
+    }
+
+
+}
