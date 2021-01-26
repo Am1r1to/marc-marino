@@ -3,6 +3,7 @@
     width: 600px;
     height: 100vh;
     position: fixed;
+    top: 0;
     right: -600px;
     background-color: #141414;
     z-index: 5;
@@ -84,5 +85,27 @@ input:focus, textarea:focus {
 .closed{
     right: 0;
     transition: all .3s ease-in-out;
+
+}
+
+
+
+
+@media  screen and (max-width: 990px) {
+
+
+    .contact{
+    
+        width: 100vw;
+        right: -100vw;
+
+    }
+
+    .closed{
+        right: 0;
+        transition: all .3s ease-in-out;
+    
+    }
+
 
 }
